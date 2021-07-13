@@ -6,13 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Estudos sobre Bootstrap</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <style>
+        .row [class^=col-], .row .col {
+            background-color:#DDD;
+            border:1px solid #CCC;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-sm" style="background-color:#F00;">...</div>
-            <div class="col-md" style="background-color:#0F0;">...</div>
-            <div class="col-lg" style="background-color:#F00;">...</div>
+            <div class="col">...</div>
+        </div>
+        <div class="row">
+            <!-- Coluna com tamanho fixo -->
+            <div class="col-4">...</div>
+            <!-- Coluna com tamanho relativo qnd celular e fixo qndo maior -->
+            <div class="col-sm-6">...</div>
+            <!-- Coluna com tamanho fixo -->
+            <div class="col-2">...</div>
         </div>
     </div>
     
