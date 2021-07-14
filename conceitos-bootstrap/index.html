@@ -10,8 +10,8 @@
     <style>
         #area {
             border: 1px solid #000;
-            padding:20px;
-            background-color:#EEE;
+            padding: 20px;
+            background-color: #EEE;
         }
     </style>
 </head>
@@ -20,15 +20,45 @@
 
     <div class="container">
 
-        <button class="btn btn-primary" data-toggle="collapse" data-target="#area">Mostrar/Esconder</button>
-        <div class="collapse" id="area">
-            Texto escondido que vai aparecer.
+        <div id="accordion">
+
+            <div class="card">
+                <div class="card-header">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#c1" aria-controls="c1">Título do Card 1</button>
+                </div>
+                <div id="c1" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                        <p>Quisque velit nisi, pretium ut lacinia in, elementum id enim. Proin eget tortor risus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#c2" aria-controls="c2">Título do Card 2</button>
+                </div>
+                <div id="c2" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                        <p>Quisque velit nisi, pretium ut lacinia in, elementum id enim. Proin eget tortor risus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#c3" aria-controls="c3">Título do Card 3</button>
+                </div>
+                <div id="c3" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                        <p>Quisque velit nisi, pretium ut lacinia in, elementum id enim. Proin eget tortor risus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.</p>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
-    </div>
-
-    <script type="text/javascript" src="assets/js/jquery-3.6.0.min.js"></script>
-    <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+        <script type="text/javascript" src="assets/js/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
