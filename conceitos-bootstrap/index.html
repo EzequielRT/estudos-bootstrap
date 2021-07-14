@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,20 +8,48 @@
     <title>Estudos sobre Bootstrap</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <style>
-        .row [class^=col-], .row .col {background-color:#DDD;border:1px solid #CCC;height:50px;}
-        .row {background-color:#FF9999;padding:10px;height:500px;}
+        .avatar {
+            width: 50px;
+            height: 50px;
+        }
     </style>
 </head>
+
 <body>
     <div class="container">
-        <div class="row justify-content-center align-items-center">
-            <div class="col-3">Primeira</div> 
-            <div class="col-3">Segunda</div>
-            <div class="col-3">Terceira</div>
-        </div>
+
+        <ul class="list-unstyled" style="margin-top:10px;">
+            <li class="media">
+                <img src="assets/images/me.jpg" class="mr-3 rounded-circle avatar">
+                <div class="media-body">
+                    <h5>Ezequiel Rodrigues</h5>
+                    <p>Nulla porttitor accumsan tincidunt. Vivamus suscipit tortor eget felis porttitor volutpat. Pellentesque in ipsum id orci porta dapibus.</p>
+                </div>
+            </li>
+        </ul>
+        <ul class="list-unstyled" style="margin-top:10px;">
+            <li class="media">
+                <img src="assets/images/me.jpg" class="mr-3 rounded-circle avatar">
+                <div class="media-body">
+                    <h5>Ezequiel Rodrigues</h5>
+                    <p>Nulla porttitor accumsan tincidunt. Vivamus suscipit tortor eget felis porttitor volutpat. Pellentesque in ipsum id orci porta dapibus.</p>
+                </div>
+            </li>
+        </ul>
+        <ul class="list-unstyled" style="margin-top:10px;">
+            <li class="media">
+                <img src="assets/images/me.jpg" class="mr-3 rounded-circle avatar">
+                <div class="media-body">
+                    <h5>Ezequiel Rodrigues</h5>
+                    <p>Nulla porttitor accumsan tincidunt. Vivamus suscipit tortor eget felis porttitor volutpat. Pellentesque in ipsum id orci porta dapibus.</p>
+                </div>
+            </li>
+        </ul>
+
     </div>
-    
+
     <script type="text/javascript" src="assets/js/jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
