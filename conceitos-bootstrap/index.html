@@ -7,21 +7,16 @@
     <title>Estudos sobre Bootstrap</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <style>
-        .row [class^=col-], .row .col {
-            background-color:#DDD;
-            border:1px solid #CCC;
-        }
+        .row [class^=col-], .row .col {background-color:#DDD;border:1px solid #CCC;height:50px;}
+        .row {background-color:#FF9999;padding:10px;height:500px;}
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="row">
-            <!-- 1º aparecem as desordenadas e depois as ordenadas -->
-            <div class="col">Primeira</div> 
-            <div class="col">Segunda</div>
-            <div class="col order-3">Terceira</div>
-            <div class="col order-2">Quarta</div>
-            <div class="col order-1">Quinta</div>
+        <div class="row justify-content-center align-items-center">
+            <div class="col-3">Primeira</div> 
+            <div class="col-3">Segunda</div>
+            <div class="col-3">Terceira</div>
         </div>
     </div>
     
