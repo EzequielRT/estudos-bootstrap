@@ -20,42 +20,34 @@
 
     <div class="container">
 
-        <div id="accordion">
+        <div class="dropdown dropright btn-group">
+            <a href="https://github.com" class="btn btn-primary">Github</a>
+            <a href="#" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"></a>
 
-            <div class="card">
-                <div class="card-header">
-                    <button class="btn btn-link" data-toggle="collapse" data-target="#c1" aria-controls="c1">Título do Card 1</button>
-                </div>
-                <div id="c1" class="collapse" data-parent="#accordion">
-                    <div class="card-body">
-                        <p>Quisque velit nisi, pretium ut lacinia in, elementum id enim. Proin eget tortor risus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.</p>
-                    </div>
-                </div>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="https://google.com">Google</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="https://facebook.com">Facebook</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="https://youtube.com">Youtube</a>
             </div>
-
-            <div class="card">
-                <div class="card-header">
-                    <button class="btn btn-link" data-toggle="collapse" data-target="#c2" aria-controls="c2">Título do Card 2</button>
-                </div>
-                <div id="c2" class="collapse" data-parent="#accordion">
-                    <div class="card-body">
-                        <p>Quisque velit nisi, pretium ut lacinia in, elementum id enim. Proin eget tortor risus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-header">
-                    <button class="btn btn-link" data-toggle="collapse" data-target="#c3" aria-controls="c3">Título do Card 3</button>
-                </div>
-                <div id="c3" class="collapse" data-parent="#accordion">
-                    <div class="card-body">
-                        <p>Quisque velit nisi, pretium ut lacinia in, elementum id enim. Proin eget tortor risus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.</p>
-                    </div>
-                </div>
-            </div>
-
         </div>
+
+        <br><br>
+
+        <div class="dropdown dropright">
+            <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Editar</a>
+
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="https://google.com">Google</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="https://facebook.com">Facebook</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="https://youtube.com">Youtube</a>
+            </div>
+        </div>
+
+    </div>
 
         <script type="text/javascript" src="assets/js/jquery-3.6.0.min.js"></script>
         <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
