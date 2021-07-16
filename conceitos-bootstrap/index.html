@@ -8,11 +8,6 @@
     <title>Estudos sobre Bootstrap</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <style>
-        #area {
-            border: 1px solid #000;
-            padding: 20px;
-            background-color: #EEE;
-        }
     </style>
 </head>
 
@@ -20,83 +15,24 @@
 
     <div class="container">
 
-        <div style="width:600px;margin:20px;">
-            <ul class="list-group">
-                <li class="list-group-item active">Item 1</li>
-                <li class="list-group-item">Item 2</li>
-                <li class="list-group-item">Item 3</li>
-            </ul>
-        </div>
+        <button class="btn btn-primary" data-toggle="modal" data-target="#janela">Clique aqui para abrir</button>
 
-        <hr>
-
-        <div style="width:600px;margin:20px;">
-            <ul class="list-group">
-                <a href="#" class="list-group-item list-group-item-action">Item para o site 1</a>
-                <a href="#" class="list-group-item list-group-item-action">Item para o site 2</a>
-                <a href="#" class="list-group-item list-group-item-action">Item para o site 3</a>
-            </ul>
-        </div>
-
-        <hr>
-
-        <div style="width:600px;margin:20px;">
-            <ul class="list-group list-group-flush">
-                <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Item para o site 1</a>
-                <a href="#" class="list-group-item list-group-item-action list-group-item-danger">Item para o site 2</a>
-                <a href="#" class="list-group-item list-group-item-action list-group-item-success">Item para o site 3</a>
-            </ul>
-        </div>
-
-        <hr>
-
-        <div style="width:600px;margin:20px;">
-            <ul class="list-group">
-                <li class="list-group-item d-flex justify-content-between align-items-center">
-                    Curso 1
-                    <span class="badge badge-primary badge-pill">77 Aulas</span>
-                </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center">
-                    Curso 1
-                    <span class="badge badge-primary badge-pill">59 Aulas</span>
-                </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center">
-                    Curso 3
-                    <span class="badge badge-primary badge-pill">89 Aulas</span>
-                </li>
-            </ul>
-        </div>
-
-        <hr>
-
-        <div style="width:600px;margin:20px;">
-            
-            <div class="list-group"></div>
-                <a href="#" class="list-group-item list-group-item-action">
-                    <div class="d-flex justify-content-between">
-                        <h5>Título da notícia</h5>
-                        <small>2 dias atrás</small>
+        <div class="modal fade" id="janela">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Título do Modal</h5>
+                        <button class="close" data-dismiss="modal"><span>&times;</span></button>
                     </div>
-                    <p>Algum resumo da notícia que está no título acima.</p>
-                </a>
-
-                <a href="#" class="list-group-item list-group-item-action">
-                    <div class="d-flex justify-content-between">
-                        <h5>Título da notícia</h5>
-                        <small>2 dias atrás</small>
+                    <div class="modal-body">
+                        Proin eget tortor risus. Proin eget tortor risus. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
                     </div>
-                    <p>Algum resumo da notícia que está no título acima.</p>
-                </a>
-
-                <a href="#" class="list-group-item list-group-item-action">
-                    <div class="d-flex justify-content-between">
-                        <h5>Título da notícia</h5>
-                        <small>2 dias atrás</small>
+                    <div class="modal-footer">
+                        <button class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                        <button class="btn btn-success">Salvar</button>
                     </div>
-                    <p>Algum resumo da notícia que está no título acima.</p>
-                </a>
+                </div>
             </div>
-
         </div>
 
     </div>
