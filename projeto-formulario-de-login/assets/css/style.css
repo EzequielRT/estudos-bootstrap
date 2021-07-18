@@ -1,0 +1,30 @@
+body {
+    background-color:#EEE;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+h2 {
+    margin-top:20px;
+    margin-bottom:20px;
+}
+p {
+    padding:20px;
+    color:#999
+}
+
+.area {
+    width:95vw;
+    max-width:350px;
+    text-align:center;
+}
+.logo {
+    width:100%;
+    height:auto;
+    border-radius: 5px;
+}
+.remember {
+    padding-top:20px;
+    padding-bottom:20px;
+}
