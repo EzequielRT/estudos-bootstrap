@@ -15,8 +15,8 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-dark bg-dark">
-            <form class="container-fluid justify-content-center mb-2">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark navDesktop">
+            <form class="container-fluid justify-content-center mb-2 collapse" id="navbarToggleExternalContent">
                 <button class="btn btn-outline-secondary btn-lg mr-3 active" type="button">Homepage</button>
                 <button class="btn btn-outline-secondary btn-lg mr-3" type="button">About Us</button>
                 <button class="btn btn-outline-secondary btn-lg mr-3" type="button">Services</button>
@@ -24,7 +24,44 @@
                 <button class="btn btn-outline-secondary btn-lg" type="button">External</button>
             </form>
         </nav>
+        <nav class="navbar navbar-dark bg-dark navResponsiva">
+            <a class="navbar-brand" href="#">Coquer</a>
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+                data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse collapse" id="navbarsExample01">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Homepage</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">External</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
     </header>
+    <main>
+        <div class="jumbotron jumbotron-fluid d-flex flex-column justify-content-center" id="imagemHeader">
+            <div class="container d-flex flex-column align-items-center">
+                <h1 id="titulo1">CONQUER</h1>
+                <span id="span1">Simple Bootstrap Template</span>
+            </div>
+        </div>
+    </main>
 
     <script type="text/javascript" src="assets/js/jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>

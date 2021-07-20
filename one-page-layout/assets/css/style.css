@@ -1,4 +1,35 @@
 .btn-outline-secondary {
     color:#CCC;
     border-radius: 2px;
+    font-size:19px;
+    text-align:center;
+}
+.navResponsiva {
+    display:none;
+}
+
+#imagemHeader {
+    background-image: url(/one-page-layout/assets/images/img1.jpg);
+    background-position: center;
+    background-size: cover;
+    height:600px;
+    width:100vw;
+}
+#titulo1 {
+    color: #FFF;
+    font-size:72px;
+    text-shadow: 2px 2px #000;
+}
+#span1 {
+    color: rgb(228, 226, 226);
+    font-size:26px;
+}
+
+@media (max-width: 768px) { 
+    .navDesktop {
+        display:none;
+    }
+    .navResponsiva {
+        display:flex;
+    }
 }
