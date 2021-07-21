@@ -25,6 +25,15 @@
     font-size:26px;
 }
 
+#cards2 button {
+    border-radius: 5px;
+    color: #666;
+    font-size:17px;
+}
+#cards2 button:hover {
+    color: #FFF;
+}
+
 @media (max-width: 768px) { 
     .navDesktop {
         display:none;
@@ -45,8 +54,15 @@
         flex-direction:column;
         max-width:500px;
     }  
-    #cards1 {
+    #cards1,
+    #cards2 {
         display:flex;
         justify-content:center;
-    } 
+    }
+    #cards2 .my-5 {
+        margin-top:0px!important;
+    }
+    #cards1 .my-5 {
+        margin-bottom: 0px!important;
+    }
 }
