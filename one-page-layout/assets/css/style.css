@@ -9,10 +9,10 @@
 }
 
 #imagemHeader {
-    background-image: url(/one-page-layout/assets/images/img1.jpg);
+    background-image: url("/one-page-layout/assets/images/img1.jpg");
     background-position: center;
     background-size: cover;
-    height:600px;
+    height:75vh;
     width:100vw;
 }
 #titulo1 {
@@ -32,4 +32,21 @@
     .navResponsiva {
         display:flex;
     }
+    #titulo1 {
+        font-size:55px;
+    }
+    #span1 {
+        font-size:20px;
+    }
+}
+
+@media (max-width: 991px) {
+    .card-deck {
+        flex-direction:column;
+        max-width:500px;
+    }  
+    #cards1 {
+        display:flex;
+        justify-content:center;
+    } 
 }
