@@ -25,18 +25,20 @@
     font-size:26px;
 }
 
-#cards2 button {
+#cards2 button,
+#cards3 button {
     border-radius: 5px;
     color: #666;
     font-size:17px;
 }
-#cards2 button:hover {
+#cards2 button:hover,
+#cards3 button:hover {
     color: #FFF;
 }
 
 #imagemHeader2 {
     background-image: url("/one-page-layout/assets/images/img2.jpg");
-    background-position: left;
+    background-position: center;
     background-size: cover;
     height:40vh;
     width:100vw;
@@ -45,6 +47,10 @@
     color: #FFF;
     font-size:42px;
     text-shadow: 2px 2px #000;
+}
+
+#cards3 .card-img-top {
+    height:200px;
 }
 
 @media (max-width: 768px) { 
@@ -71,7 +77,8 @@
         max-width:500px;
     }  
     #cards1,
-    #cards2 {
+    #cards2,
+    #cards3 {
         display:flex;
         justify-content:center;
     }
