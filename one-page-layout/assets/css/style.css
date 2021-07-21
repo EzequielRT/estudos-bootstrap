@@ -26,13 +26,15 @@
 }
 
 #cards2 button,
-#cards3 button {
+#cards3 button,
+#cards4 button {
     border-radius: 5px;
     color: #666;
     font-size:17px;
 }
 #cards2 button:hover,
-#cards3 button:hover {
+#cards3 button:hover,
+#cards4 button:hover {
     color: #FFF;
 }
 
