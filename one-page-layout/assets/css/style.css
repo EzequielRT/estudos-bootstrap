@@ -34,6 +34,19 @@
     color: #FFF;
 }
 
+#imagemHeader2 {
+    background-image: url("/one-page-layout/assets/images/img2.jpg");
+    background-position: left;
+    background-size: cover;
+    height:40vh;
+    width:100vw;
+}
+#titulo2 {
+    color: #FFF;
+    font-size:42px;
+    text-shadow: 2px 2px #000;
+}
+
 @media (max-width: 768px) { 
     .navDesktop {
         display:none;
@@ -46,6 +59,9 @@
     }
     #span1 {
         font-size:20px;
+    }
+    #titulo2 {
+        font-size:32px;
     }
 }
 
