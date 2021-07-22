@@ -13,7 +13,7 @@
     background-position: center;
     background-size: cover;
     height:75vh;
-    width:100vw;
+    width:100%;
 }
 #titulo1 {
     color: #FFF;
@@ -43,7 +43,7 @@
     background-position: center;
     background-size: cover;
     height:40vh;
-    width:100vw;
+    width:100%;
 }
 #titulo2 {
     color: #FFF;
@@ -54,6 +54,28 @@
 #cards3 .card-img-top {
     height:200px;
 }
+
+#imagemHeader3 {
+    background-image: url("/one-page-layout/assets/images/img4.jpg");
+    background-position: center;
+    background-size: cover;
+    height:80vh;
+    width:100%;
+}
+#imagemHeader3 p {
+    color:#FFF;
+}
+.text-area1 textarea {
+    height:147px;
+    color:#FFF;
+}
+.text-area1 textarea::placeholder {
+    color:#FFF!important;
+}
+.form1 input::placeholder {
+    color:#FFF;
+}
+
 
 @media (max-width: 768px) { 
     .navDesktop {
@@ -80,14 +102,17 @@
     }  
     #cards1,
     #cards2,
-    #cards3 {
+    #cards3,
+    #cards4 {
         display:flex;
         justify-content:center;
     }
-    #cards2 .my-5 {
+    #cards2 .my-5,
+    #cards4 .my-5 {
         margin-top:0px!important;
     }
-    #cards1 .my-5 {
+    #cards1 .my-5,
+    #cards3 .my-5 {
         margin-bottom: 0px!important;
     }
 }
