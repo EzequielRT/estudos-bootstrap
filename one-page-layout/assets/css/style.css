@@ -59,7 +59,9 @@
     background-image: url("/one-page-layout/assets/images/img4.jpg");
     background-position: center;
     background-size: cover;
-    height:80vh;
+    height:90%;
+    padding-bottom:30px;
+    padding-top:30px;
     width:100%;
 }
 #imagemHeader3 p {
